@@ -1,0 +1,180 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{booktabs}
+\usepackage{tabu}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=1.5cm,right=1.5cm,marginparwidth=1cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{cleveref}
+\usepackage{dsfont}
+\usepackage[linesnumbered,lined,boxed,commentsnumbered,ruled,longend]{algorithm2e}
+\usepackage{amsfonts}
+
+
+
+
+\title{STAT 293 Project on "SIMPLE: Statistical inference on membership
+profiles in large networks"}
+\author{Funmi Olawole \& Yuxin Liu}
+\date{}
+\begin{document}
+\maketitle
+\input{FinalReport}
+
+\bibliographystyle{plain}
+\newpage
+\bibliography{refs}
+
+\appendix
+\section*{Appendix}
+\addcontentsline{toc}{section}{Appendix}
+\section{Additional Tables}
+\begin{table}[h!]
+    \centering
+    \tiny
+    \begin{tabular}{lccccccccc}
+    \toprule
+Model 1 & $\theta$ & 0.2 & 0.3  & 0.4 & 0.5 & 0.6 & 0.7 & 0.8 & 0.9\\
+    \midrule
+Rep = 100  & Size & 0.070 & 0.030 & 0.030 & 0.010 & 0.010 & 0.000 & 0.000 & 0.010 \\
+     & Power & 0.850 & 0.900 & 1 & 1 & 1 & 1 & 1 & 1 \\
+     Rep = 500  & Size & 0.046 & 0.022 & 0.022 & 0.016 & 0.004 & 0.010 & 0.008 & 0.004 \\
+     & Power & 0.896 & 0.982 & 1 & 1 & 1 & 1 & 1 & 1 \\
+    \bottomrule
+    \end{tabular}
+    \caption{\scriptsize Power and Size of SIMPLE Statistics for Simulated network when n = 3000 on Mixed Membership Stochastic Blockmodel}
+    \label{model1n3000}
+    \end{table}
+    
+\begin{table}[h!]
+    \centering
+    \tiny
+    \begin{tabular}{lccccccccc}
+    \toprule
+   Model 1 & $\theta$ & 0.2 & 0.3  & 0.4 & 0.5 & 0.6 & 0.7 & 0.8 & 0.9\\
+    \midrule
+Rep = 100 &Size & 0.030 & 0.090 & 0.050 & 0.060 & 0.040 & 0.030 & 0.020 & 0.000 \\
+   &  Power & 0.760 & 0.900 & 0.950 & 0.980 & 1 & 1 & 1 & 1 \\
+     Rep = 500 & Size & 0.052 & 0.046 & 0.038 & 0.024 & 0.044 & 0.018 & 0.022 & 0.018 \\
+   &  Power & 0.708 & 0.884 & 0.972 & 0.998 & 1 & 1 & 1 & 1 \\
+    \bottomrule
+    \end{tabular}
+    \caption{\scriptsize Power and Size of SIMPLE Statistics for Simulated network when n = 1500 on Mixed Membership Stochastic Blockmodel}
+    \label{model1n1500}
+    \end{table}
+
+\begin{table}[h!]
+    \centering
+    \tiny
+    \begin{tabular}{lccccccccc}
+    \toprule
+   Model 2 & $r^2$ & 0.2 & 0.3  & 0.4 & 0.5 & 0.6 & 0.7 & 0.8 & 0.9\\
+    \midrule
+Rep = 100 & Size & 0.190 & 0.200 & 0.240 & 0.190 &  0.260 & 0.190 & 0.190 & 0.250\\
+    & Power & 0.630 & 0.880 & 0.930 & 1 & 1 & 1 & 1 & 1 \\
+     Rep = 500 & Size & 0.216 & 0.274 & 0.196 & 0.220 & 0.214 & 0.198 & 0.210 & 0.234 \\
+     & Power & 0.874 & 0.956 & 0.992 & 0.996 & 1 & 1 & 1 & 1 \\
+    \bottomrule
+    \end{tabular}
+    \caption{\scriptsize Power and Size of SIMPLE Statistics for Simulated network when n = 3000 on Degree-Corrected Mixed Membership Model}
+    \label{model2n3000}
+    \end{table}
+    
+\begin{table}[h!]
+    \centering
+    \tiny
+    \begin{tabular}{lccccccccc}
+    \toprule
+Model 2 & $r^2$ & 0.2 & 0.3  & 0.4 & 0.5 & 0.6 & 0.7 & 0.8 & 0.9\\
+    \midrule
+Rep = 100  & Size & 0.170 & 0.180 & 0.210 & 0.220 & 0.220 & 0.250 & 0.210 & 0.230 \\
+     &  Power & 0.720 & 0.860 & 0.880 & 0.960 & 1 & 0.990 & 1 & 1 \\
+     Rep = 500  & Size & 0.206 & 0.214 & 0.222 & 0.214 & 0.264 & 0.190 & 0.222 & 0.212 \\
+     & Power & 0.692 & 0.836 & 0.938 & 0.962 & 0.982 & 0.996 & 1 & 1 \\
+    \bottomrule
+    \end{tabular}
+    \caption{\scriptsize Power and Size of SIMPLE Statistics for Simulated network when n = 1500 on Degree-Corrected Mixed Membership Model}
+    \label{model2n1500}
+    \end{table}
+    
+\begin{table}[h!]
+\centering
+\tiny
+\begin{tabular}{lccccc}
+\toprule
+ & TA (C0) &  CVRA (C1) & WA (C2) & NSTA (C3) & BA (C4)\\
+\midrule
+Toliara Airport (C0) & 1.0000 & 0.7914 & 0.0000 & 0.9949 & 0.7210 \\
+Chippewa Valley Regional Airport (C1) & 0.7915 & 1.0000 & 0.0000 & 0.7309 & 0.5860 \\
+Wold-Chamberlain Airport (C2) & 0.0000 & 0.0000 & 1.0000 & 0.0000 & 0.0000 \\
+Nakhon Si Thammarat Airport (C3) & 0.9949 & 0.7309 & 0.0000 & 1.0000 & 0.6188 \\
+Badajoz Airport (C4) & 0.7210 & 0.5860 & 0.0000 & 0.6188 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\caption{\scriptsize P-values for 1 randomly selected airport per cluster on Model 1 with $K=5$.}
+\label{crossclustermodel1}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\tiny
+\begin{tabular}{lccccc}
+\toprule
+ & TA (C0) & CVRA (C1) & WA (C2) & NSTA (C3) & BA (C4) \\
+\midrule
+Toliara Airport (C0) & 1.0000 & 0.0001 & 0.0000 & 0.0000 & 0.7587 \\
+Chippewa Valley Regional Airport (C1) & 0.0001 & 1.0000 & 0.1474 & 0.0000 & 0.0000 \\
+Wold-Chamberlain Airport (C2) & 0.0000 & 0.1474 & 1.0000 & 0.0000 & 0.0000 \\
+Nakhon Si Thammarat Airport (C3) & 0.0000 & 0.0000 & 0.0000 & 1.0000 & 0.0000 \\
+Badajoz Airport (C4) & 0.7587 & 0.0000 & 0.0000 & 0.0000 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\caption{\scriptsize P-values for 1 randomly selected airport per cluster on Model 2 with $K=5$.}
+\label{crossclustermodel2}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \tiny
+    \begin{tabular}{lccccc}
+    \toprule
+     & SEMA & SFXA & PA & LAA & JDRA \\
+    \midrule
+    Senadora Eunice Micheles Airport & 1.0000 & 1.0000 & 0.9949 & 0.9794 & 0.4409 \\
+    São Félix do Xingu Airport       & 1.0000 & 1.0000 & 0.9948 & 0.9793 & 0.4404 \\
+    Perales Airport                  & 0.9949 & 0.9948 & 1.0000 & 0.9993 & 0.6250 \\
+    Los Alamos Airport               & 0.9794 & 0.9793 & 0.9993 & 1.0000 & 0.5793 \\
+    Jardines Del Rey Airport         & 0.4409 & 0.4404 & 0.6250 & 0.5793 & 1.0000 \\
+    \bottomrule
+    \end{tabular}
+    \caption{\scriptsize P-values for 5 randomly selected airports in Cluster 2 on Model 1 with $K=5$.}
+    \label{withinclustermodel1}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \tiny
+    \begin{tabular}{lccccc}
+    \toprule
+     & SEMA & SFXA & PA & LAA & JDRA \\
+    \midrule
+    Senadora Eunice Micheles Airport (C2) & 1.0000 & 0.0092 & 0.0933 & 0.1269 & 0.0001 \\
+    São Félix do Xingu Airport (C2)       & 0.0092 & 1.0000 & 0.0001 & 0.0559 & 0.0000 \\
+    Perales Airport (C2)                  & 0.0933 & 0.0001 & 1.0000 & 0.0003 & 0.2725 \\
+    Los Alamos Airport (C2)               & 0.1269 & 0.0559 & 0.0003 & 1.0000 & 0.0000 \\
+    Jardines Del Rey Airport (C2)         & 0.0001 & 0.0000 & 0.2725 & 0.0000 & 1.0000 \\
+    \bottomrule
+    \end{tabular}
+    \caption{\scriptsize P-values for 5 randomly selected airports in Cluster 2 on Model 2 with $K=5$.}
+    \label{withinclustermodel2}
+\end{table}
+\newpage
+\section{Team member contribution}
+Yuxin Liu wrote the introduction, methodology, and real-world data application sections of the slides and report, and wrote the associated code for implementing the SIMPLE framework on the real-world dataset.
+\vspace{0.5cm}\\
+Funmi Olawole implemented the SIMPLE framework on  simulated networks with n = 1500 and 3000, performed a sensitivity analysis to evaluate the robustness of the SIMPLE test as well as test the behavior of SIMPLE tests under alternative.
+\end{document}
