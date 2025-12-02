@@ -28,9 +28,10 @@ Airport metadata can be accessed in `airports.dat`.
 Flight routes can be accessed in `routes.dat`.  
 Data source is from </em>https://github.com/jpatokal/openflights/tree/master.
 
-## Final Report
+## Final Report \& Slides
 Final report writing files and figures are saved in `FinalReport/`.  
 The compiled PDF file is `FinalReport.pdf`.  
+The slides is `FinalSlides.pdf`. 
 
 ## References
 <div id="refs" class="references">
