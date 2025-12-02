@@ -7,7 +7,7 @@ The goal of this project is to understand and apply the SIMPLE methodology to te
 * Funmi Olawole
 
 ## SIMPLE Test Implementation
-The notebook 'Implement.ipynb' includes:
+The notebook `Implement.ipynb` includes:
 * All needed functions for SIMPLE Test 1 (MMSB) and Test 2 (DCMM)
 * Simulation-Based Validation of SIMPLE
 * Sensitivity Analyses
@@ -15,8 +15,8 @@ The notebook 'Implement.ipynb' includes:
 
 
 ## Airport Network Analysis
-The notebook 'Flightnetwork.ipynb' includes:
-* Build an undirected network using 'airports.dat' and 'routes.dat'
+The notebook `Flightnetwork.ipynb` includes:
+* Build an undirected network using `airports.dat` and `routes.dat`
 * Perform spectral clustering for exploratory grouping
 * Compute SIMPLE p-values for selected across-cluster and within-cluster airport pairs
 * Visualize global airport communities on a geographical map
@@ -29,8 +29,8 @@ Flight routes can be accessed in `routes.dat`.
 Data source is from </em>https://github.com/jpatokal/openflights/tree/master.
 
 ## Final Report
-Final report writing files and figures are saved in 'FinalReport/'.  
-The compiled PDF file is 'FinalReport.pdf'.  
+Final report writing files and figures are saved in `FinalReport/`.  
+The compiled PDF file is `FinalReport.pdf`.  
 
 ## References
 <div id="refs" class="references">
