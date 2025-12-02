@@ -26,7 +26,11 @@ The notebook 'Flightnetwork.ipynb' includes:
 The real-world dataset is from the OpenFlights Global Airport Database:  
 Airport metadata can be accessed in `airports.dat`.  
 Flight routes can be accessed in `routes.dat`.  
-Data source is from </em>https://github.com/jpatokal/openflights/tree/master
+Data source is from </em>https://github.com/jpatokal/openflights/tree/master.
+
+## Final Report
+Final report writing files and figures are saved in 'FinalReport/'.  
+The compiled PDF file is 'FinalReport.pdf'.  
 
 ## References
 <div id="refs" class="references">
