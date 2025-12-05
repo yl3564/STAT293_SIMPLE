@@ -30,7 +30,9 @@ Data source is from </em>https://github.com/jpatokal/openflights/tree/master.
 
 ## Final Report \& Slides
 Final report writing files and figures are saved in `FinalReport/`.  
-The compiled PDF file is `FinalReport.pdf`.  
+Final report generated file is `FinalReport.zip`.  
+Final report compiled PDF file is `FinalReport.pdf`.  
+The slides generated file is `FinalSlides.zip`.  
 The slides is `FinalSlides.pdf`. 
 
 ## References
